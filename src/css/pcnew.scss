@@ -1,0 +1,229 @@
+.menu {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 0.95rem;
+    background-color: #142842;
+    opacity: 0.9;
+    z-index: 2;
+
+    .logoimg {
+        position: absolute;
+        width: 2.15rem;
+        height: 0.94rem;
+        top: 0.4rem;
+        left: 0.95rem;
+    }
+
+    .iconimg {
+        position: absolute;
+        width: 0.9rem;
+        height: 0.9rem;
+        top: .4rem;
+        left: 3.5rem
+    }
+
+    .meau_ {
+        float: right;
+        width: 30%;
+        margin-right: 20%;
+
+        li {
+            float: left;
+            width: 33.3%;
+            text-align: center;
+            line-height: .95rem;
+            color: white;
+            font-size: .2rem;
+            cursor: pointer;
+            transition: all .3s ease
+        }
+
+        li:hover {
+            font-size: .22rem
+        }
+    }
+}
+
+.main_body {
+    width: 19.2rem;
+    height: 24rem;
+    background: url('../img/new/newbg.jpg') no-repeat;
+    background-size: 100% 100%;
+
+    .article_ {
+        position: absolute;
+        width: 14.68rem;
+        height: 18rem;
+        background: url('../img/new/newlistbg.png') no-repeat;
+        background-size: 100% 100%;
+        bottom: 0;
+        left: 50%;
+        margin-left: -8.5rem;
+        .art_top {
+            width: 11.8rem;
+            height: 7rem;
+            position: absolute;
+            top: -.8rem;
+            left: 3rem;
+            .art_img {
+                display: block;
+                width: 7.86rem;
+                height: 6.31rem;
+                float: left;
+            }
+
+            .art_dom {
+                display: block;
+                width: 3.6rem;
+                height: 4rem;
+                float: left;
+                margin-top: 1.3rem;
+                text-align: right;
+                .art_title {
+                    font-size: .5rem;
+                    color: white;
+                    text-align: center;
+                    max-height: 1.2rem;
+                    overflow: hidden;
+                    word-break:break-word;
+                    span{
+                        color: #2dc6fc
+                    }
+                }
+                .art_content {
+                    font-size: .18rem;
+                    color: white;
+                    text-align: center;
+                    max-height: 1rem;
+                    overflow: hidden;
+                }
+                .godetail{
+                    width: .83rem;
+                    height: .22rem;
+                    animation: margins 1s ease infinite;
+                }
+            }
+        }
+        .art_item{
+            width: 11.8rem;
+            height: 11.3rem;
+            position: absolute;
+            top: 5.5rem;
+            left: 2.85rem;
+            .art_{
+                width: 100%;
+                height: 2rem;
+                float: left;
+                padding: .4rem;
+                box-sizing: border-box;
+                border-top: 2px solid #0c3854;
+                .art_date{
+                    width: .98rem;
+                    height: 1.15rem;
+                    background:url('../img/new/date.png') no-repeat;
+                    background-size: 100% 100%;
+                    float: left;
+                    .month{
+                        display:block;
+                        font-size: .2rem;
+                        width: 100%;
+                        height: .38rem;
+                        color: #c9c48a;
+                        text-align: center;
+                        line-height: .38rem;
+                    }
+                    .dates{
+                        display:block;
+                        font-size: .5rem;
+                        width: 100%;
+                        height: .8rem;
+                        color: #c9c48a;
+                        text-align: center;
+                        line-height: .8rem;
+                    }
+                }
+                .art_c{
+                    width: 9rem;
+                    height: 1.15rem;
+                    margin-left: .4rem;
+                    float: left;
+                    .art_c_title{
+                        font-size: .3rem;
+                        color: white;
+                        width: 100%;
+                        float: left;
+                        height: .6rem;
+                        line-height: .6rem;
+                    }
+                    .art_c_c{
+                        font-size: .18rem;
+                        color: white;
+                        width: 100%;
+                        float: left;
+                        height: .6rem;
+                        line-height: .25rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@keyframes margins{
+    0%{
+        margin-right: 0
+    }
+    50%{
+        margin-right: .3rem;
+    }
+    100%{
+         margin-right: 0
+    }
+
+}
+/* 多行文字超出省略 */
+.ellipsis-two{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+/* 多行文字超出省略 */
+.ellipsis-four{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+.footul {
+    position: absolute;
+    bottom: .45rem;
+    width: 5.59rem;
+    height: .4rem;
+    left: 50%;
+    margin-left: -2.55rem;
+
+    li {
+        position: absolute;
+        width: 1.15rem;
+        height: .4rem;
+        left: 0
+    }
+
+    .t_li {
+        left: 1.15rem;
+    }
+
+    .tr_li {
+        width: 1.72rem;
+        left: 2.3rem;
+    }
+
+    .four_li {
+        left: 4.02rem;
+    }
+}
