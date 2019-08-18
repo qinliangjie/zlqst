@@ -128,12 +128,28 @@
 					background: url(../img/hero/odin_out.png) no-repeat;
 					background-size: 100% 100%;
 				}
+				.odin_active{
+					position: absolute;
+					top: 1.8rem;
+					width: 2.76rem;
+					height: 1.59rem;
+					background: url(../img/hero/odin_in.png) no-repeat;
+					background-size: 100% 100%;
+				}
 				.loki{
 					position: absolute;
 					top: 3.35rem;
 					width: 2.35rem;
 					height: 1.59rem;
 					background: url(../img/hero/loki_out.png) no-repeat;
+					background-size: 100% 100%;
+				}
+				.loki_active{
+					position: absolute;
+					top: 3.35rem;
+					width: 2.35rem;
+					height: 1.59rem;
+					background: url(../img/hero/loki_in.png) no-repeat;
 					background-size: 100% 100%;
 				}
 				.hela{
@@ -144,6 +160,14 @@
 					background: url(../img/hero/hela_out.png) no-repeat;
 					background-size: 100% 100%;
 				}
+				.hela_active{
+					position: absolute;
+					top: 4.9rem;
+					width: 1.94rem;
+					height: 1.59rem;
+					background: url(../img/hero/hela_in.png) no-repeat;
+					background-size: 100% 100%;
+				}
 			}
 			.hreo_img{
 				position: absolute;
@@ -151,6 +175,10 @@
 			    top: 1.3rem;
 			    left: 50%;
 			    margin-left: -6rem;
+			    display: none
+			}
+			.active{
+				display: block;
 			}
 		}
 

@@ -56,8 +56,6 @@ li{
 
 /* 宽度限制 */
 html,body,header,footer,.wrapper{
-    min-width: 1200px;
-    max-width: 1920px;
     margin:0 auto;
 }
 .comWidth{margin:0 auto;width: 12rem;overflow: hidden;}
